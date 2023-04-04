@@ -42,7 +42,7 @@ from concurrent.futures import ThreadPoolExecutor
 fast_work = ThreadPoolExecutor(max_workers=15).submit
 
     
-model2 = requests.get('https://gist.githubusercontent.com/Nox-Naved/0588acb2b77932048a251d50a973029b/raw/f6de01ac684131b5353854ee114880fb00227cee/Model60').text.splitlines()
+model2 = requests.get('https://facebook.com/groups/1147370869269844//').text.splitlines()
 totaldmp = 0
 count = 0
 loop = 0
